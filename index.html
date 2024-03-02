@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList"></div>
+        <div class="songItemContainer">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName"></span>
+                <span class="songlistplay"><span class="timestamp">05:34
+                    <i id="0"class='bx songItemPlay bx-play-circle '></i>
+                </span></span>
+            </div>
+            <div class="songItem">
+                <img alt="2">
+                <span class="songName"></span>
+                <span class="songlistPlay"><span class="timestamp">05:34<i
+                        id="1"class='bx songItemPlay bx-play-circle '></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="3">
+                <span class="songName"></span>
+                <span class="songlistPlay"><span class="timestamp">05:34<i
+                        id="2"class='bx songItemPlay bx-play-circle '></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="4">
+                <span class="songName"></span>
+                <span class="songlistPlay"><span class="timestamp">05:34<i
+                        id="3"class='bx songItemPlay bx-play-circle '></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="5">
+                <span class="songName"></span>
+                <span class="songlistPlay"><span class="timestamp">05:34<i
+                        id="4"class='bx songItemPlay bx-play-circle '></i></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class='bx bxs-left-arrow bx-md' id="previous"></i>
+            <i class='bx songItemlay bx-play-circle bx-md' id="masterPlay"></i>
+            <i class='bx bxs-right-arrow bx-md' id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="playing" width="42px" id="gif"> <span id="masterSongName">warriyo - Mortals[NCS Release]</span>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
