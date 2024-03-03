@@ -16,7 +16,7 @@ Check Out the Live Version -> [Spotify-Clone](https://rohitkumar.live/)
 
 Log In
 
-![App Screenshot](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/login.png)
+![App Screenshot](https://github.com/rohitkumar-tech/Spotify-Clone/blob/main/Readme%20Resources/login.png)
 
 Home
 
@@ -35,17 +35,13 @@ Library
 If you like my work, feel free to:
  - ⭐ this Repository. And we will live happily ever after xD.
  - Join me on Social: 
- - [<img align="left" alt="BasimAhmedKhan | Facebook" width="22px" src="https://img.icons8.com/color/48/000000/facebook-circled--v1.png" />][facebook] 
-[<img align="left" alt="BasimAhmedKhan | Instagram" width="22px" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" />][instagram] 
-[<img align="left" alt="BasimAhmedKhan | Snapchat" width="22px" src="https://img.icons8.com/color/48/000000/snapchat-circled-logo--v1.png" />][snapchat] [<img align="left" alt="BasimAhmedKhan | LinkedIn" width="22px" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-linkedin-in-logo-used-for-professional-networking-logo-shadow-tal-revivo.png" />][linkedin]
+ - [<img align="left" alt="BasimAhmedKhan | Instagram" width="22px" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" />][instagram] 
+ [<img align="left" alt="BasimAhmedKhan | LinkedIn" width="22px" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-linkedin-in-logo-used-for-professional-networking-logo-shadow-tal-revivo.png" />][linkedin]
 
 Thanks a Bunch for Stopping By! <3
 
-
-[facebook]: https://www.facebook.com/profile.php?id=100009322472394
-[instagram]: https://www.instagram.com/basim_khann
-[snapchat]: https://github.com/BasimAhmedKhan/BasimAhmedKhan/blob/main/assets/WhatsApp%20Image%202022-01-09%20at%207.23.20%20PM.jpeg
-[linkedin]: https://www.linkedin.com/in/basim-khan-604a76189/
+[instagram]: https://www.instagram.com/rohit_kumarrrrr_/
+[linkedin]: https://www.linkedin.com/in/rohit-kumar-28aa94223/
 
 ## Tech Stack
 Front-End
