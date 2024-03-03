@@ -9,26 +9,19 @@ Spotify Clone made by only using HTML, CSS, JS. Spotify is a music streaming pla
 
 Check Out the Live Version -> [Spotify-Clone](https://rohitkumar.live/)
 
-![Demo](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/Spotify-Clone.gif)
-
-
 ## Screenshots
 
-Log In
 
-![App Screenshot](https://github.com/rohitkumar-tech/Spotify-Clone/blob/main/Readme%20Resources/login.png)
+![Website Screenshot](images/pausefull.png)
 
-Home
 
-![App Screenshot](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/home.png)
+![Website Screenshot](images/playfull.png)
 
-About Us
 
-![App Screenshot](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/about.png)
+![Website Screenshot](images/playresponsive.png)
 
-Library
 
-![App Screenshot](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/library.png)
+![Website Screenshot](images/playresponsive1.png)
 
 ## Support
 
