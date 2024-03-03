@@ -1,7 +1,6 @@
 console.log("Welcome to spotify");
 
-
-// Initilize the Variables
+// Initialize the Variables
 let songIndex = 0;
 let audioElement = new Audio('/songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
@@ -23,8 +22,6 @@ songItems.forEach((element,i) => {
     element.getElementsByTagName("img")[0].src = songs[i].coverPath;
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName;
 })
-
-// audioElement.play()
 
 // Handle play/pause click
 masterPlay.addEventListener('click', () => {
@@ -86,8 +83,10 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click',()=>{
-    if(songIndex>=4){
+    if(songIndex >= songs.length - 1){
         songIndex = 0;
+        songItemPlay[songs.length - 1].classList.add('bx-play-circle');
+        songItemPlay[songs.length - 1].classList.remove('bx-pause-circle');
     }
     else
     {
