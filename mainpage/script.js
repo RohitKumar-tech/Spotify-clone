@@ -2,7 +2,7 @@ console.log("Welcome to spotify");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('/songs/1.mp3');
+let audioElement = new Audio('../songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById("myProgressBar")
 let gif = document.getElementById("gif")
@@ -11,11 +11,11 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songItemPlay = document.getElementsByClassName('songItemPlay');
 
 let songs = [
-    {songName : "warriyo - Mortals" ,filePath:"songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName : "Cielo - Huma-Huma",filePath:"songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName : "DEAF KEV -  Invincible",filePath:"songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName : "Different Heaven & EH!DE - My Heart",filePath:"songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName : "janji-Heroes-Tonight-feat-Johnn",filePath:"songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName : "warriyo - Mortals" ,filePath:"../songs/1.mp3", coverPath: "../covers/1.jpg"},
+    {songName : "Cielo - Huma-Huma",filePath:"../songs/2.mp3", coverPath: "../covers/2.jpg"},
+    {songName : "DEAF KEV -  Invincible",filePath:"../songs/3.mp3", coverPath: "../covers/3.jpg"},
+    {songName : "Different Heaven & EH!DE - My Heart",filePath:"../songs/4.mp3", coverPath: "../covers/4.jpg"},
+    {songName : "janji-Heroes-Tonight-feat-Johnn",filePath:"../songs/5.mp3", coverPath: "../covers/5.jpg"},
 ]
 
 songItems.forEach((element,i) => {
@@ -62,7 +62,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     element.addEventListener('click', (e)=>{ 
         songIndex = parseInt(e.target.id);
         if(audioElement.currentTime <= 0 || audioElement.paused || audioElement.ended){
-            audioElement.src = `songs/${songIndex+1}.mp3`;
+            audioElement.src = `../songs/${songIndex+1}.mp3`;
             masterSongName.innerText = songs[songIndex].songName;
             audioElement.currentTime = 0;
             audioElement.play();
@@ -92,7 +92,7 @@ document.getElementById('next').addEventListener('click',()=>{
     {
         songIndex += 1;
     }
-    audioElement.src = `songs/${songIndex+1}.mp3`;
+    audioElement.src = `../songs/${songIndex+1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
     gif.style.opacity = 1;
     audioElement.currentTime = 0;
@@ -112,7 +112,7 @@ document.getElementById('previous').addEventListener('click',()=>{
     else{
         songIndex -= 1;
     }
-    audioElement.src = `songs/${songIndex+1}.mp3`;
+    audioElement.src = `../songs/${songIndex+1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
     gif.style.opacity = 1;
     audioElement.currentTime = 0;

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/Login-Page/Css/style_login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <form method="post" action="/Login-Page/php/login.php">
+        <fieldset>
+            <h1>Login in to <span>Spotify</span></h1>
+
+            <label for="email">
+                <i class='bx bx-user'></i>
+                <input id="email" type="email" name="email" placeholder="email" required/>
+            </label>
+
+            <label for="password">
+                <i class='bx bx-lock-alt' ></i>
+                <input id="password" name="password" type="password" pattern="[a-zA-Z0-9]{8,}" placeholder="Password" required/>
+            </label>
+
+            <p>By registering here , you agree to our <a href="/Login-Page/terms_and_condition.html">Terms and Conditons</a></p>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Login</button>
+            </div>
+
+            <p>Don't have an account ? <a href="/Login-Page/registration.html">Sign up</a></p>
+            
+        </fieldset>         
+    </form>
+    <script src="Javascript/main.js"></script>
+</body>
+</html>
