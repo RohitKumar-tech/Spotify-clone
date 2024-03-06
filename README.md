@@ -1,4 +1,3 @@
-
 # Spotify Clone
 
 Spotify Clone made by only using HTML, CSS, JS. Spotify is a music streaming platform, where you can listen to your songs anywhere anytime you want! Enjoy
@@ -28,8 +27,8 @@ Check Out the Live Version -> [Spotify-Clone](https://rohitkumar.live/)
 If you like my work, feel free to:
  - ⭐ this Repository. And we will live happily ever after xD.
  - Join me on Social: 
- - [<img align="left" alt="BasimAhmedKhan | Instagram" width="22px" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" />][instagram] 
- [<img align="left" alt="BasimAhmedKhan | LinkedIn" width="22px" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-linkedin-in-logo-used-for-professional-networking-logo-shadow-tal-revivo.png" />][linkedin]
+ - [<img align="left" alt="Rohit_kumar | Instagram" width="22px" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" />][instagram] 
+ [<img align="left" alt="Rohit_kumar | LinkedIn" width="22px" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-linkedin-in-logo-used-for-professional-networking-logo-shadow-tal-revivo.png" />][linkedin]
 
 Thanks a Bunch for Stopping By! <3
 
