@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <script src="/firebase-connections/google.js" defer type="module"></script>
+    <script src="/firebase-connections/git.js" defer type="module"></script>
+    <script src="/firebase-connections/facebook.js" defer type="module"></script>
     <link rel="stylesheet" href="/Login-Page/Css/style_login.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -20,7 +23,7 @@
 
             <label for="password">
                 <i class='bx bx-lock-alt' ></i>
-                <input id="password" name="password" type="password" pattern="[a-zA-Z0-9]{8,}" placeholder="Password" required/>
+                <input id="password" name="password" type="password" pattern=".{8,}" title="Password must be at least 8 characters long." placeholder="Password" required/>
             </label>
 
             <p>By registering here , you agree to our <a href="/Login-Page/terms_and_condition.html">Terms and Conditons</a></p>
@@ -28,9 +31,20 @@
             <div class="btn-box btns">
                 <button type="submit" class="btn">Login</button>
             </div>
-
             <p>Don't have an account ? <a href="/Login-Page/registration.html">Sign up</a></p>
+            <hr>
+        <div class="input">
+            <div class="btn-box-btns">
+                <button1 type="submit" id="google-login-btn" class="google-button"><i class='bx bxl-google' ></i></button1>
             
+            
+                <button1 type="submit" id="github-login-btn" class="github-button"><i class='bx bxl-github' ></i></button1>
+            
+            
+                <!-- <button1 type="submit" id="facebook-login-btn" class="facebook-button"><i class='bx bxl-facebook' ></i></button1> -->
+            </div>
+        </div>
+
         </fieldset>         
     </form>
     <script src="Javascript/main.js"></script>
