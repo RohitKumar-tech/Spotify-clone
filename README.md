@@ -1,8 +1,10 @@
 # Spotify Clone
 
-Spotify Clone made by only using HTML, CSS, JS. Spotify is a music streaming platform, where you can listen to your songs anywhere anytime you want! Enjoy
+Spotify Clone frontend made by only using HTML, CSS, JS and the backend is made using php , mysql , google-firebase and implemented twitter,github and google api through google-firebase for authentication purpose. Spotify is a music streaming platform, where you can listen to your songs anywhere anytime you want! Enjoy
 
+This clone is a fully responsive project with both frontend and backend development.
 
+This clone contains a login page which backend is made using php and mysql and the website is hosted on hostinger.
 
 ## Working Application
 
